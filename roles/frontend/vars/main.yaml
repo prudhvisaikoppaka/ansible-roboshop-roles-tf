@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.prudhvisai.space
+USER_HOST: user.prudhvisai.space
+CART_HOST: cart.prudhvisai.space
+SHIPPING_HOST: shipping.prudhvisai.space
+PAYMENT_HOST: payment.prudhvisai.space

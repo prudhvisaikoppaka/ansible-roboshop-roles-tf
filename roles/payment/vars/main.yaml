@@ -1,0 +1,5 @@
+CART_HOST: cart.prudhvisai.space
+USER_HOST: user.prudhvisai.space
+RABBITMQ_HOST: rabbitmq.prudhvisai.space
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123
