@@ -4,15 +4,15 @@
     name: "{{ component }}"
     state: stopped
 
-- name: remove / app directory
+- name: remove /app directory
   ansible.builtin.file:
     state: absent
     path: /app
 
-- name: create / app directory
+- name: create /app directory
   ansible.builtin.file: 
-    path: /app
     state: directory
+    path: /app
 
 - name: download application
   ansible.builtin.unarchive:

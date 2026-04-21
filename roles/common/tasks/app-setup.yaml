@@ -10,10 +10,10 @@
     system: true
     home: /app
 
-- name: "download {{ component}} code"
+- name: "download {{ component }} code"
   ansible.builtin.get_url:
     url: "https://roboshop-artifacts.s3.amazonaws.com/{{ component }}-v3.zip"
-    dest: "/tmp/{{ component }}.zip"
+    dest: /tmp/{{ component }}.zip
 
 # This module by default thinks file exist on ansible control server, needs to extract on to remote machine. Here remote machine is component
 #  remote_src: yes means files already exist in component server
