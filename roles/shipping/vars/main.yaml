@@ -1,4 +1,4 @@
-MYSQL_HOST: 172.31.30.231
+MYSQL_HOST: mysql-{{ env }}.prudhvisai.space 
 MYSQL_ROOT_USER: root
 MYSQL_ROOT_PASSWORD: RoboShop@1
-CART_HOST: cart.prudhvisai.space
+CART_HOST: cart.backend-{{ env }}.prudhvisai.space
