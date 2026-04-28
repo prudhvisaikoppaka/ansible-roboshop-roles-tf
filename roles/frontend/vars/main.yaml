@@ -1,5 +1,5 @@
 CATALOGUE_HOST: catalogue.backend-{{ env }}.prudhvisai.space
 USER_HOST: user.backend-{{ env }}.prudhvisai.space
 CART_HOST: cart.backend-{{ env }}.prudhvisai.space
-SHIPPING_HOST: shipping-{{ env }}.prudhvisai.space
-PAYMENT_HOST: payment-{{ env }}.prudhvisai.space
+SHIPPING_HOST: shipping.backend-{{ env }}.prudhvisai.space
+PAYMENT_HOST: payment.backend-{{ env }}.prudhvisai.space
