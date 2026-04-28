@@ -1,2 +1,2 @@
-REDIS_HOST: redis.backend-{{ env }}.prudhvisai.space
-CATALOGUE_HOST: catalogue.prudhvisai.space
+REDIS_HOST: redis-{{ env }}.prudhvisai.space
+CATALOGUE_HOST: catalogue.backend-{{ env }}.prudhvisai.space

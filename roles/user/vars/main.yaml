@@ -1,2 +1,2 @@
-REDIS_HOST: redis.prudhvisai.space
-MONGODB_HOST: mongodb.prudhvisai.space
+REDIS_HOST: redis-{{ env }}.prudhvisai.space
+MONGODB_HOST: mongodb-{{ env }}.prudhvisai.space
